@@ -39,8 +39,11 @@ $ cd workspace
 Создаем несколько каталогов и переходим в каталог workspace. Будет создана структура каталогов:
 
 workspace/
+
 ├── tasks/
+
 ├── projects/
+
 └── reports/
 
 ```sh
