@@ -3363,7 +3363,7 @@ In file included from /usr/include/c++/13/string:49,
 ...updated 93 targets...
 ```
 
-</details><details>
+</details>
 
 Компиляция шла около 5-7 минут
 
