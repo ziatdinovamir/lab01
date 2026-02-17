@@ -1985,7 +1985,104 @@ $ mv ~/boost_1_69_0/stage/lib/* ~/boost-libs/
 $ cd ~/boost-libs
 $ ls -lh
 ```
-Всего файлы занимают 38Мб. Список файлов также очень длинный
+Всего файлы занимают 38Мб. 
+
+<details><summary>Список файлов и вес каждого файла</summary>total 38M
+-rw-rw-r-- 1 amir amir 2.6K Feb 17 12:41 libboost_atomic.a
+lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_atomic.so -> libboost_atomic.so.1.69.0
+-rwxrwxr-x 1 amir amir  16K Feb 17 12:45 libboost_atomic.so.1.69.0
+-rw-rw-r-- 1 amir amir 235K Feb 17 12:50 libboost_chrono.a
+lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_chrono.so -> libboost_chrono.so.1.69.0
+-rwxrwxr-x 1 amir amir  61K Feb 17 12:45 libboost_chrono.so.1.69.0
+-rw-rw-r-- 1 amir amir 148K Feb 17 12:41 libboost_container.a
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:45 libboost_container.so -> libboost_container.so.1.69.0
+-rwxrwxr-x 1 amir amir 100K Feb 17 12:45 libboost_container.so.1.69.0
+-rw-rw-r-- 1 amir amir  21K Feb 17 12:41 libboost_context.a
+lrwxrwxrwx 1 amir amir   26 Feb 17 12:45 libboost_context.so -> libboost_context.so.1.69.0
+-rwxrwxr-x 1 amir amir  24K Feb 17 12:45 libboost_context.so.1.69.0
+-rw-rw-r-- 1 amir amir 330K Feb 17 12:41 libboost_contract.a
+lrwxrwxrwx 1 amir amir   27 Feb 17 12:45 libboost_contract.so -> libboost_contract.so.1.69.0
+-rwxrwxr-x 1 amir amir 176K Feb 17 12:45 libboost_contract.so.1.69.0
+-rw-rw-r-- 1 amir amir 152K Feb 17 12:41 libboost_date_time.a
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:45 libboost_date_time.so -> libboost_date_time.so.1.69.0
+-rwxrwxr-x 1 amir amir  89K Feb 17 12:45 libboost_date_time.so.1.69.0
+-rw-rw-r-- 1 amir amir 1.7K Feb 17 12:45 libboost_exception.a
+-rw-rw-r-- 1 amir amir 231K Feb 17 12:41 libboost_fiber.a
+lrwxrwxrwx 1 amir amir   24 Feb 17 12:46 libboost_fiber.so -> libboost_fiber.so.1.69.0
+-rwxrwxr-x 1 amir amir  99K Feb 17 12:46 libboost_fiber.so.1.69.0
+-rw-rw-r-- 1 amir amir 414K Feb 17 12:41 libboost_filesystem.a
+lrwxrwxrwx 1 amir amir   29 Feb 17 12:46 libboost_filesystem.so -> libboost_filesystem.so.1.69.0
+-rwxrwxr-x 1 amir amir 154K Feb 17 12:46 libboost_filesystem.so.1.69.0
+-rw-rw-r-- 1 amir amir 845K Feb 17 12:42 libboost_graph.a
+lrwxrwxrwx 1 amir amir   24 Feb 17 12:46 libboost_graph.so -> libboost_graph.so.1.69.0
+-rwxrwxr-x 1 amir amir 394K Feb 17 12:46 libboost_graph.so.1.69.0
+-rw-rw-r-- 1 amir amir 170K Feb 17 12:42 libboost_iostreams.a
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:46 libboost_iostreams.so -> libboost_iostreams.so.1.69.0
+-rwxrwxr-x 1 amir amir  88K Feb 17 12:46 libboost_iostreams.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.0M Feb 17 12:42 libboost_locale.a
+lrwxrwxrwx 1 amir amir   25 Feb 17 12:47 libboost_locale.so -> libboost_locale.so.1.69.0
+-rwxrwxr-x 1 amir amir 889K Feb 17 12:47 libboost_locale.so.1.69.0
+-rw-rw-r-- 1 amir amir 541K Feb 17 12:44 libboost_math_c99.a
+-rw-rw-r-- 1 amir amir 448K Feb 17 12:44 libboost_math_c99f.a
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:49 libboost_math_c99f.so -> libboost_math_c99f.so.1.69.0
+-rwxrwxr-x 1 amir amir 103K Feb 17 12:49 libboost_math_c99f.so.1.69.0
+-rw-rw-r-- 1 amir amir 463K Feb 17 12:44 libboost_math_c99l.a
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:49 libboost_math_c99l.so -> libboost_math_c99l.so.1.69.0
+-rwxrwxr-x 1 amir amir  99K Feb 17 12:49 libboost_math_c99l.so.1.69.0
+lrwxrwxrwx 1 amir amir   27 Feb 17 12:49 libboost_math_c99.so -> libboost_math_c99.so.1.69.0
+-rwxrwxr-x 1 amir amir 121K Feb 17 12:49 libboost_math_c99.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.7M Feb 17 12:44 libboost_math_tr1.a
+-rw-rw-r-- 1 amir amir 2.6M Feb 17 12:44 libboost_math_tr1f.a
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:48 libboost_math_tr1f.so -> libboost_math_tr1f.so.1.69.0
+-rwxrwxr-x 1 amir amir 534K Feb 17 12:48 libboost_math_tr1f.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.7M Feb 17 12:44 libboost_math_tr1l.a
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:49 libboost_math_tr1l.so -> libboost_math_tr1l.so.1.69.0
+-rwxrwxr-x 1 amir amir 527K Feb 17 12:49 libboost_math_tr1l.so.1.69.0
+lrwxrwxrwx 1 amir amir   27 Feb 17 12:48 libboost_math_tr1.so -> libboost_math_tr1.so.1.69.0
+-rwxrwxr-x 1 amir amir 541K Feb 17 12:48 libboost_math_tr1.so.1.69.0
+-rw-rw-r-- 1 amir amir 212K Feb 17 12:45 libboost_prg_exec_monitor.a
+lrwxrwxrwx 1 amir amir   35 Feb 17 12:49 libboost_prg_exec_monitor.so -> libboost_prg_exec_monitor.so.1.69.0
+-rwxrwxr-x 1 amir amir 115K Feb 17 12:49 libboost_prg_exec_monitor.so.1.69.0
+-rw-rw-r-- 1 amir amir 1.6M Feb 17 12:44 libboost_program_options.a
+lrwxrwxrwx 1 amir amir   34 Feb 17 12:49 libboost_program_options.so -> libboost_program_options.so.1.69.0
+-rwxrwxr-x 1 amir amir 672K Feb 17 12:49 libboost_program_options.so.1.69.0
+-rw-rw-r-- 1 amir amir  80K Feb 17 12:44 libboost_random.a
+lrwxrwxrwx 1 amir amir   25 Feb 17 12:49 libboost_random.so -> libboost_random.so.1.69.0
+-rwxrwxr-x 1 amir amir  56K Feb 17 12:49 libboost_random.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.7M Feb 17 12:42 libboost_regex.a
+lrwxrwxrwx 1 amir amir   24 Feb 17 12:46 libboost_regex.so -> libboost_regex.so.1.69.0
+-rwxrwxr-x 1 amir amir 1.2M Feb 17 12:46 libboost_regex.so.1.69.0
+-rw-rw-r-- 1 amir amir 1.2M Feb 17 12:45 libboost_serialization.a
+lrwxrwxrwx 1 amir amir   32 Feb 17 12:49 libboost_serialization.so -> libboost_serialization.so.1.69.0
+-rwxrwxr-x 1 amir amir 488K Feb 17 12:49 libboost_serialization.so.1.69.0
+-rw-rw-r-- 1 amir amir  24K Feb 17 12:45 libboost_stacktrace_addr2line.a
+lrwxrwxrwx 1 amir amir   39 Feb 17 12:49 libboost_stacktrace_addr2line.so -> libboost_stacktrace_addr2line.so.1.69.0
+-rwxrwxr-x 1 amir amir  32K Feb 17 12:49 libboost_stacktrace_addr2line.so.1.69.0
+-rw-rw-r-- 1 amir amir  20K Feb 17 12:45 libboost_stacktrace_backtrace.a
+lrwxrwxrwx 1 amir amir   39 Feb 17 12:49 libboost_stacktrace_backtrace.so -> libboost_stacktrace_backtrace.so.1.69.0
+-rwxrwxr-x 1 amir amir 108K Feb 17 12:49 libboost_stacktrace_backtrace.so.1.69.0
+-rw-rw-r-- 1 amir amir  14K Feb 17 12:45 libboost_stacktrace_basic.a
+lrwxrwxrwx 1 amir amir   35 Feb 17 12:49 libboost_stacktrace_basic.so -> libboost_stacktrace_basic.so.1.69.0
+-rwxrwxr-x 1 amir amir  22K Feb 17 12:49 libboost_stacktrace_basic.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.8K Feb 17 12:45 libboost_stacktrace_noop.a
+lrwxrwxrwx 1 amir amir   34 Feb 17 12:49 libboost_stacktrace_noop.so -> libboost_stacktrace_noop.so.1.69.0
+-rwxrwxr-x 1 amir amir  16K Feb 17 12:49 libboost_stacktrace_noop.so.1.69.0
+-rw-rw-r-- 1 amir amir 1.5K Feb 17 12:49 libboost_system.a
+lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_system.so -> libboost_system.so.1.69.0
+-rwxrwxr-x 1 amir amir  15K Feb 17 12:45 libboost_system.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.3M Feb 17 12:50 libboost_test_exec_monitor.a
+-rw-rw-r-- 1 amir amir  53K Feb 17 12:50 libboost_timer.a
+lrwxrwxrwx 1 amir amir   24 Feb 17 12:49 libboost_timer.so -> libboost_timer.so.1.69.0
+-rwxrwxr-x 1 amir amir  45K Feb 17 12:49 libboost_timer.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.3M Feb 17 12:45 libboost_unit_test_framework.a
+lrwxrwxrwx 1 amir amir   38 Feb 17 12:50 libboost_unit_test_framework.so -> libboost_unit_test_framework.so.1.69.0
+-rwxrwxr-x 1 amir amir 949K Feb 17 12:50 libboost_unit_test_framework.so.1.69.0
+-rw-rw-r-- 1 amir amir 4.5M Feb 17 12:41 libboost_wave.a
+-rw-rw-r-- 1 amir amir 793K Feb 17 12:45 libboost_wserialization.a
+lrwxrwxrwx 1 amir amir   33 Feb 17 12:49 libboost_wserialization.so -> libboost_wserialization.so.1.69.0
+-rwxrwxr-x 1 amir amir 339K Feb 17 12:49 libboost_wserialization.so.1.69.0
+drwxrwxr-x 3 amir amir 4.0K Feb 17 13:06 reports
+drwxrwxr-x 3 amir amir 4.0K Feb 17 13:04 tasks</details>
 
 11. Найдем *топ10* самых "тяжёлых".
 ```sh
