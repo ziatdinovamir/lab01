@@ -1988,6 +1988,7 @@ $ ls -lh
 Всего файлы занимают 38Мб. 
 
 <details><summary>Список файлов и вес каждого файла</summary>total 38M
+```sh
 -rw-rw-r-- 1 amir amir 2.6K Feb 17 12:41 libboost_atomic.a  
 lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_atomic.so -> libboost_atomic.so.1.69.0  
 -rwxrwxr-x 1 amir amir  16K Feb 17 12:45 libboost_atomic.so.1.69.0  
@@ -2082,7 +2083,8 @@ lrwxrwxrwx 1 amir amir   38 Feb 17 12:50 libboost_unit_test_framework.so -> libb
 lrwxrwxrwx 1 amir amir   33 Feb 17 12:49 libboost_wserialization.so -> libboost_wserialization.so.1.69.0
 -rwxrwxr-x 1 amir amir 339K Feb 17 12:49 libboost_wserialization.so.1.69.0
 drwxrwxr-x 3 amir amir 4.0K Feb 17 13:06 reports
-drwxrwxr-x 3 amir amir 4.0K Feb 17 13:04 tasks</details>
+drwxrwxr-x 3 amir amir 4.0K Feb 17 13:04 tasks```
+</details>
 
 11. Найдем *топ10* самых "тяжёлых".
 ```sh
