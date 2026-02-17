@@ -3302,7 +3302,7 @@ In file included from ./boost/functional/hash.hpp:6,
                  from libs/log/src/setup/init_from_settings.cpp:54:
 ./boost/container_hash/hash.hpp:130:33: warning: ‘template<class _Arg, class _Result> struct std::unary_function’ is deprecated [-Wdeprecated-declarations]
   130 |         struct hash_base : std::unary_function<T, std::size_t> {};
-      |                                 ^~~~~~~~~~~~~~
+      |                                 ^~~~~~~~~~~~~~Upate
 In file included from /usr/include/c++/13/string:49,
                  from /usr/include/c++/13/bits/locale_classes.h:40,
                  from /usr/include/c++/13/bits/ios_base.h:41,
@@ -3358,7 +3358,7 @@ In file included from /usr/include/c++/13/string:49,
 ...skipped <pstage/lib>libboost_log_setup.a for lack of <pbin.v2/libs/log/build/gcc-13.3.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_log_setup.a...
 ...failed updating 12 targets...
 ...skipped 33 targets...
-...updated 93 targets...</details>
+...updated 93 targets...</details><details>
 
 Компиляция шла около 5-7 минут
 
