@@ -102,6 +102,36 @@ $ gist REPORT.md
 ```sh
 $ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
 ```
+
+<details><summary>Установка</summary>--2026-02-17 15:45:34--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
+Resolving sourceforge.net (sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:c95, ...
+Connecting to sourceforge.net (sourceforge.net)|104.18.13.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/ [following]
+--2026-02-17 15:45:34--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/
+Reusing existing connection to sourceforge.net:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/download [following]
+--2026-02-17 15:45:35--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/download
+Reusing existing connection to sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://downloads.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?ts=gAAAAABplG6Up1bGqQFcCz_dNdWXyZwKqXxHBHctYdPo6Q9jBr_q7JYK1J-EXxgvMkXNUF_C9Qcn5VkbKPUklCC6fM8af4YDzA%3D%3D&use_mirror=sf-eu-introserv-1&r= [following]
+--2026-02-17 15:45:35--  https://downloads.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?ts=gAAAAABplG6Up1bGqQFcCz_dNdWXyZwKqXxHBHctYdPo6Q9jBr_q7JYK1J-EXxgvMkXNUF_C9Qcn5VkbKPUklCC6fM8af4YDzA%3D%3D&use_mirror=sf-eu-introserv-1&r=
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:c95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://sf-eu-introserv-1.dl.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?viasf=1 [following]
+--2026-02-17 15:45:35--  https://sf-eu-introserv-1.dl.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?viasf=1
+Resolving sf-eu-introserv-1.dl.sourceforge.net (sf-eu-introserv-1.dl.sourceforge.net)... 141.95.66.71
+Connecting to sf-eu-introserv-1.dl.sourceforge.net (sf-eu-introserv-1.dl.sourceforge.net)|141.95.66.71|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 111710205 (107M) [application/x-gzip]
+Saving to: ‘boost_1_69_0.tar.gz’
+
+boost_1_69_0.tar.gz 100%[===================>] 106.53M   305KB/s    in 7m 5s   
+
+2026-02-17 15:52:40 (257 KB/s) - ‘boost_1_69_0.tar.gz’ saved [111710205/111710205]</details>
+
 2. Разархивируем скаченный файл в директорию `~/boost_1_69_0`
 ```sh
 tar -xf boost_1_69_0.tar.gz
@@ -114,12 +144,14 @@ $ find ~/boost_1_69_0 -maxdepth 1 -type f | wc -l
 wc -l - подсчет количества файлов
 ```
 Программа выдала значение 16 файлов
+
 4. Подсчитываем количество файлов в директории `~/boost_1_69_0` **включая** вложенные директории.
 ```sh
 $ find ~/boost_1_69_0 -type f | wc -l
 ```
 Почти та же команда, только без захода в подпапки.
-ППрограмма выдала значение 16 файлов
+Программа выдала значение 62053 файла
+
 5. 1)Подсчитываем количество заголовочных файлов
 ```sh
 $ find ~/boost_1_69_0 -type f \( -name "*.h" -o -name "*.hpp" -o -name "*.hxx" \) | wc -l
@@ -129,15 +161,21 @@ $ find ~/boost_1_69_0 -type f \( -name "*.h" -o -name "*.hpp" -o -name "*.hxx" \
 -name "*.hxx" — имя файла заканчивается на .hxx.
 ```
 Программа выдала значение 15208 файлов
-2) Файлов с расширением `.cpp`
+
+2)Файлов с расширением `.cpp`
 ```sh
 $ find ~/boost_1_69_0 -type f -name "*.cpp" | wc -l
 ```
-3) Сколько остальных файлов (не заголовочных и не `.cpp`).
+Программа выдала значение 13789 файлов
+
+3)Сколько остальных файлов (не заголовочных и не `.cpp`).
 ```sh
 $ find ~/boost_1_69_0 -type f ! \( -name "*.h" -o -name "*.hpp" -o -name "*.hxx" -o -name "*.cpp" \) | wc -l
 ```
 То есть прописываем ту же команду, что в пункте 1, то перед скобками ставим !, что означает НЕ
+
+Программа выдала значение 33056 файлов
+
 6. Найдем полный пусть до файла `any.hpp` внутри библиотеки *boost*.
 ```sh
 $ find ~/boost_1_69_0 -type f -name "any.hpp"
@@ -160,9 +198,13 @@ $ find ~/boost_1_69_0 -type f -name "any.hpp"
 grep -rl "boost::asio" ~/boost_1_69_0
 ```
 grep - команда для поиска файлов
+
 -r - ищет во всех папках, а не только в текущей аудитории
+
 -l - вывод имен файлов
-Файлов вывело очень много, поэтому, чтобы не захламлять отчет, список прикреплен не будет
+
+<details><summary>Список файлов</summary>
+
 8. Скомпилируем *boost*.
 ```sh
 $ cd ~/boost_1_69_0
@@ -170,6 +212,7 @@ $ ./bootstrap.sh
 $ ./b2
 ```
 Компиляция шла около 5-7 минут
+
 9. Переносим все скомпилированные на предыдущем шаге статические библиотеки в директорию `~/boost-libs`.
 ```sh
 $ mkdir -p ~/boost-libs
@@ -181,6 +224,7 @@ $ cd ~/boost-libs
 $ ls -lh
 ```
 Всего файлы занимают 38Мб. Список файлов также очень длинный
+
 11. Найдем *топ10* самых "тяжёлых".
 ```sh
 $ ls -S | head -10
