@@ -1988,18 +1988,18 @@ $ ls -lh
 Всего файлы занимают 38Мб. 
 
 <details><summary>Список файлов и вес каждого файла</summary>total 38M
--rw-rw-r-- 1 amir amir 2.6K Feb 17 12:41 libboost_atomic.a
-lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_atomic.so -> libboost_atomic.so.1.69.0
--rwxrwxr-x 1 amir amir  16K Feb 17 12:45 libboost_atomic.so.1.69.0
--rw-rw-r-- 1 amir amir 235K Feb 17 12:50 libboost_chrono.a
-lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_chrono.so -> libboost_chrono.so.1.69.0
--rwxrwxr-x 1 amir amir  61K Feb 17 12:45 libboost_chrono.so.1.69.0
--rw-rw-r-- 1 amir amir 148K Feb 17 12:41 libboost_container.a
-lrwxrwxrwx 1 amir amir   28 Feb 17 12:45 libboost_container.so -> libboost_container.so.1.69.0
--rwxrwxr-x 1 amir amir 100K Feb 17 12:45 libboost_container.so.1.69.0
--rw-rw-r-- 1 amir amir  21K Feb 17 12:41 libboost_context.a
-lrwxrwxrwx 1 amir amir   26 Feb 17 12:45 libboost_context.so -> libboost_context.so.1.69.0
--rwxrwxr-x 1 amir amir  24K Feb 17 12:45 libboost_context.so.1.69.0
+-rw-rw-r-- 1 amir amir 2.6K Feb 17 12:41 libboost_atomic.a  
+lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_atomic.so -> libboost_atomic.so.1.69.0  
+-rwxrwxr-x 1 amir amir  16K Feb 17 12:45 libboost_atomic.so.1.69.0  
+-rw-rw-r-- 1 amir amir 235K Feb 17 12:50 libboost_chrono.a  
+lrwxrwxrwx 1 amir amir   25 Feb 17 12:45 libboost_chrono.so -> libboost_chrono.so.1.69.0  
+-rwxrwxr-x 1 amir amir  61K Feb 17 12:45 libboost_chrono.so.1.69.0  
+-rw-rw-r-- 1 amir amir 148K Feb 17 12:41 libboost_container.a  
+lrwxrwxrwx 1 amir amir   28 Feb 17 12:45 libboost_container.so -> libboost_container.so.1.69.0  
+-rwxrwxr-x 1 amir amir 100K Feb 17 12:45 libboost_container.so.1.69.0  
+-rw-rw-r-- 1 amir amir  21K Feb 17 12:41 libboost_context.a  
+lrwxrwxrwx 1 amir amir   26 Feb 17 12:45 libboost_context.so -> libboost_context.so.1.69.0  
+-rwxrwxr-x 1 amir amir  24K Feb 17 12:45 libboost_context.so.1.69.0   
 -rw-rw-r-- 1 amir amir 330K Feb 17 12:41 libboost_contract.a
 lrwxrwxrwx 1 amir amir   27 Feb 17 12:45 libboost_contract.so -> libboost_contract.so.1.69.0
 -rwxrwxr-x 1 amir amir 176K Feb 17 12:45 libboost_contract.so.1.69.0
