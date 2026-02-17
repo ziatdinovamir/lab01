@@ -1981,6 +1981,8 @@ $ ./bootstrap.sh
 $ ./b2
 ```
 <details><summary>Процесс компиляции</summary>
+ 
+```sh
 Performing configuration checks
 
     - default address-model    : 64-bit (cached)
@@ -3358,7 +3360,10 @@ In file included from /usr/include/c++/13/string:49,
 ...skipped <pstage/lib>libboost_log_setup.a for lack of <pbin.v2/libs/log/build/gcc-13.3.0/release/link-static/threadapi-pthread/threading-multi/visibility-hidden>libboost_log_setup.a...
 ...failed updating 12 targets...
 ...skipped 33 targets...
-...updated 93 targets...</details><details>
+...updated 93 targets...
+```
+
+</details><details>
 
 Компиляция шла около 5-7 минут
 
