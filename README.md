@@ -9,7 +9,7 @@
 
 ```bash
 $ export GITHUB_USERNAME=ziatdinovamir
-$ export GIST_TOKEN=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
+$ export GIST_TOKEN=<Личный_токен>
 $ alias edit=nano
 ```
 создаем директорию, переходим в нее и выводим пусть к ней.
