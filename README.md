@@ -103,7 +103,11 @@ $ gist REPORT.md
 $ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
 ```
 
-<details><summary>Установка</summary>--2026-02-17 15:45:34--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
+<details><summary>Установка</summary>--
+
+```sh
+  2026-02-17 15:45:34--  
+https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
 Resolving sourceforge.net (sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:c95, ...
 Connecting to sourceforge.net (sourceforge.net)|104.18.13.149|:443... connected.
 HTTP request sent, awaiting response... 301 Moved Permanently
@@ -130,7 +134,10 @@ Saving to: ‘boost_1_69_0.tar.gz’
 
 boost_1_69_0.tar.gz 100%[===================>] 106.53M   305KB/s    in 7m 5s   
 
-2026-02-17 15:52:40 (257 KB/s) - ‘boost_1_69_0.tar.gz’ saved [111710205/111710205]</details>
+2026-02-17 15:52:40 (257 KB/s) - ‘boost_1_69_0.tar.gz’ saved [111710205/111710205]
+```
+
+</details>
 
 2. Разархивируем скаченный файл в директорию `~/boost_1_69_0`
 ```sh
