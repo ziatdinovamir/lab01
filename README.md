@@ -182,6 +182,7 @@ $ ls -lh
 ```sh
 $ ls -S | head -10
 ```
+```sh
 libboost_wave.a
 libboost_regex.a
 libboost_math_tr1.a
@@ -192,3 +193,4 @@ libboost_unit_test_framework.a
 libboost_locale.a
 libboost_program_options.a
 libboost_serialization.a
+```
